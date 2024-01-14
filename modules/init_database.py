@@ -18,6 +18,7 @@ tables = [
             CREATE TABLE IF NOT EXISTS question (
                 id INTEGER PRIMARY KEY,
                 quiz_id INTEGER,
+                num integer,                
                 name TEXT
             );
         '''
